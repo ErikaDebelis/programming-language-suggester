@@ -1,14 +1,11 @@
 $(document).ready(function() {
   $("form#suggester").submit(function(event) {
     event.preventDefault();
-    //the submitted answers to each of the 5 questions below//
     const spend = $("input:radio[name=spend]:checked").val();
     const color = $("input:radio[name=color]:checked").val();
     const vacation = $("input:radio[name=vacation]:checked").val();
     const animal = $("input:radio[name=animal]:checked").val();
     const entertainment = $("input:radio[name=entertainment]:checked").val();
-    //possible answer combos to determine result/ language suggestion below// 
-    // 4 if/if else statements for each possible language result//
 
     if ((spend === "csharp" && color === "csharp" && vacation === "csharp" && animal === "csharp" && entertainment === "csharp") || (spend === "csharp" && color === "csharp" && vacation === "csharp" && animal === "csharp" && entertainment === "ruby") || (spend === "javascript" && color === "csharp" && vacation === "csharp" && animal === "csharp" && entertainment === "csharp") || (spend === "csharp" && color === "csharp" && vacation === "csharp" && animal === "python" && entertainment === "csharp")) {
       $('#csharp').show();

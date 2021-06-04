@@ -6,7 +6,7 @@
 
 ## Description
 
-_a site utilizing HTML, CSS, Javascript, and Markdown._
+_a demostration site utilizing HTML, CSS, Javascript, and Markdown. specific focus on branching and radio buttons in JQuery_
 
 ## Technologies Used:
 
@@ -28,11 +28,11 @@ _https://erikadebelis.github.io/programming-language-suggester/_
 
 ## Bugs
 
-_No known bugs at this time_
+_only a few combinations of answers for each question currently offer a language suggestion result after submitting but project instructions stated we are not required to take every possible combination of answers into account_
 
 ## License
 
-_GPL_
+_MIT_
 
 _Copyright (c) 2021 Erika Debelis_
 

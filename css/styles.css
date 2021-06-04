@@ -5,6 +5,7 @@ h1.centered-text {
   text-align: center;
   font-weight: bold;
   color: rgb(90, 77, 57);
+  padding: 5px;
 }
 .centered-image {
   margin: auto;
@@ -16,11 +17,9 @@ h1.centered-text {
   display: none;
 }
 .form-group {
-  font-style: italic;
   font-weight: bold;
   color:rgb(75, 74, 64)
 }
 .radio {
-  font-style: italic;
   font-weight: lighter;
 }
