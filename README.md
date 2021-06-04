@@ -23,7 +23,7 @@ _https://erikadebelis.github.io/programming-language-suggester/_
 * _Clone this repository to your desktop_
 * _Navigate to the top of the directory_
 * _Open portfolio/index.html in your web browser_
-* _Click through questions and subit to find your language suggestion_
+* _Click through questions and submit to find your language suggestion_
 
 
 ## Bugs
