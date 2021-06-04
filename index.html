@@ -13,25 +13,25 @@
     <form id="suggester">
       <div class="questions">
         <h3>What is your favorite way to spend money?</h3>
-        <div class=options>
+        <div class=radio>
           <label>
             <input type="radio" name="spend" value="music" checked>
             On music! Spotify, band merch, LPs, and DJ equipment!
           </label>
         </div> <!-- end of 'options div'-->
-        <div class="options">
+        <div class="radio">
         <label>
           <input type="radio" name="spend" value="clothes">
           On clothes and/or makeup! You gotta look good to feel good!
         </label>
         </div> <!--end of 'options div'-->
-        <div class="options">
+        <div class="radio">
           <label>
             <input type="radio" name="spend" value="food">
             On food and drinks! There's nothing like a good meal prepared for you while hanging with friends out on the town!
           </label>
         </div> <!--end of 'options div'-->
-        <div class="options">
+        <div class="radio">
           <label>
             <input type="radio" name="spend" value="gamble">
             Gambling! Gotta spend money to make money! And even if I lose, I still had fun.
@@ -45,25 +45,25 @@
 
       <div class="questions">
         <h3>What is your favorite color?</h3>
-        <div class=options>
+        <div class=radio>
           <label>
             <input type="radio" name="color" value="c-color" checked>
             Teal- is it blue? is it green? what can I say, I'm complex.
           </label>
         </div> <!-- end of 'options div'-->
-        <div class="options"> 
+        <div class="radio"> 
           <label>
             <input type="radio" name="color" value="r-color">
             Red. Such a power color.
           </label>
         </div> <!-- end of 'options div'-->
-        <div class="options"> 
+        <div class="radio"> 
           <label>
             <input type="radio" name="color" value="j-color">
             Who has a favorite color anyways? I love them all!
           </label>
         </div> end of 'options div'
-        <div class="options"> 
+        <div class="radio"> 
           <label>
             <input type="radio" name="color" value="p-color">
             Black. Basic, simple, perfection.
@@ -75,7 +75,7 @@
 
       <div class="questions">
         <h3>What is your ideal vacation spot?</h3>
-        <div class=options
+        <div class=radio>
           <label>
             <input type="radio" name="vacation" value="tokyo" checked>
             Tokyo. Its so alive and active.
@@ -87,43 +87,43 @@
             Paris. Croissants, architecture, and nuance?! Sign me up! 
           </label>
         </div> <!-- end of 'options div'-->
-        <div class="options"> 
+        <div class="radio"> 
           <label>
             <input type="radio" name="vacation" value="bora">
             Bora Bora. That place looks like the stereotypical paradise from a 2000's magazine ad- unreal. I must see it for my own eyes.
           </label>
         </div> <!-- end of 'options div' -->
-        <div class="options"> 
+        <div class="radio"> 
           <label>
             <input type="radio" name="vacation" value="home">
             What's a vacation? LOL I'm a workaholic and don't even want to anywhere anyways.
           </label>
-        </div> <!--end of 'option4 div'-->
+        </div> <!--end of 'radio div'-->
       </div> <!--end of 'questions div'-->
 
 
 
       <div class="questions">
         <h3>What is your spirit animal?</h3>
-        <div class=options>
+        <div class=radio>
           <label>
             <input type="radio" name="animal" value="meerkat" checked>
             Meerkat. Productive, agile, and cute.
           </label>
-        </div> <!-- end of 'option1 div'-->
-        <div class="options"> 
+        </div> <!-- end of 'radio div'-->
+        <div class="radio"> 
           <label>
             <input type="radio" name="animal" value="leopard">
             Leopard. Graceful but dangerous. 
           </label>
-        </div> <!-- end of 'option2 div'-->
-        <div class="options">
+        </div> <!-- end of 'radio div'-->
+        <div class="radio">
           <label>
             <input type="radio" name="animal" value="rabbit">
             Bunny! idk why... I just am, okay?
           </label>
         </div> <!-- end of 'options div'-->
-        <div class="options">
+        <div class="radio">
           <label>
             <input type="radio" name="animal" value="dog">
             Dog. Loyal, affectionate, active, fun- thats me!
@@ -135,25 +135,25 @@
 
       <div class="questions">
         <h3>What is your favorite form of entertainment?</h3>
-        <div class=options>
+        <div class=radio>
           <label>
             <input type="radio" name="entertainment" value="tv" checked>
             TV shows. Give me a longer, slow-burning plot with big chacacter development. 
           </label>
         </div> <!-- end of 'options div'-->
-        <div class="options">
+        <div class="radio">
           <label>
             <input type="radio" name="entertainment" value="games">
             Video games. Interactive and immersive. 
           </label>
         </div> <!-- end of 'options div'-->
-        <div class="options">
+        <div class="radio">
           <label>
             <input type="radio" name="entertainment" value="youtube">
             Youtube! I love having others' experiences and knowledge at the tip of my fingers! I can learn about cooking, makeup, the best things to order at chipotle, really anything you could think of all in one place!
           </label>
         </div> <!-- end of 'options div'-->
-        <div class="options"> 
+        <div class="radio"> 
           <label>
             <input type="radio" name="entertainment" value="podcast">
             Podcasts and books. I find most media more harmful than not so I try to limit my social media content whenever possible.
@@ -166,18 +166,9 @@
 
     <!--hidden result options after submitting below!-->
 
-    <div id="csharp">
-      <p>You got C#!</p>
-    </div> <!--end of 'csharp div'-->
-    <div id="ruby">
-      <p>You got Ruby!</p>
-    </div> <!--end of 'ruby div'-->
-    <div id="js">
-      <p>You got JavaScript!</p>
-    </div> <!--end of 'js div'-->
-    <div id="python">
-      <p>You got Python!</p>
-    </div> <!--end of 'python div'-->
+    <div id="language">
+      <p>You got <span class="output"></span>! We love this for you.</p>
+    </div> <!--end of 'language div'-->
   </div>  <!--end of 'container div'-->
 </body>
 </html>
