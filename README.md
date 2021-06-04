@@ -6,7 +6,7 @@
 
 ## Description
 
-_ a site utilizing HTML, CSS, Javascript, and Markdown._
+_a site utilizing HTML, CSS, Javascript, and Markdown._
 
 ## Technologies Used:
 
