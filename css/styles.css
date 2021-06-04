@@ -1,11 +1,16 @@
-#language {
+body {
+  background-color: rgb(217, 243, 170);
+}
+#csharp, #ruby, #javascript, #python {
   display: none;
 }
 
-.questions {
-
+.form-group {
+  font-style: italic;
+  font-weight: bold;
 }
 
-.options {
-
+.radio {
+  font-style: italic;
+  font-weight: lighter;
 }

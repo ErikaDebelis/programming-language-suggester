@@ -11,7 +11,7 @@
   <div class= "container">
     <h1>The Ultimate Programming Language Quiz</h1>
     <form id="suggester">
-      <div class="questions">
+      <div class="form-group">
         <h3>What is your favorite way to spend money?</h3>
         <div class=radio>
           <label>
@@ -43,7 +43,7 @@
 
 
 
-      <div class="questions">
+      <div class="form-group">
         <h3>What is your favorite color?</h3>
         <div class=radio>
           <label>
@@ -62,7 +62,7 @@
             <input type="radio" name="color" value="j-color">
             Who has a favorite color anyways? I love them all!
           </label>
-        </div> end of 'options div'
+        </div> <!--end of 'options div' -->
         <div class="radio"> 
           <label>
             <input type="radio" name="color" value="p-color">
@@ -73,7 +73,7 @@
 
 
 
-      <div class="questions">
+      <div class="form-group">
         <h3>What is your ideal vacation spot?</h3>
         <div class=radio>
           <label>
@@ -81,7 +81,7 @@
             Tokyo. Its so alive and active.
           </label>
         </div> <!-- end of 'options div'-->
-        <div class="options"> 
+        <div class="radio"> 
           <label>
             <input type="radio" name="vacation" value="paris">
             Paris. Croissants, architecture, and nuance?! Sign me up! 
@@ -103,7 +103,7 @@
 
 
 
-      <div class="questions">
+      <div class="form-group">
         <h3>What is your spirit animal?</h3>
         <div class=radio>
           <label>
@@ -133,12 +133,12 @@
     
 
 
-      <div class="questions">
+      <div class="form-group">
         <h3>What is your favorite form of entertainment?</h3>
         <div class=radio>
           <label>
             <input type="radio" name="entertainment" value="tv" checked>
-            TV shows. Give me a longer, slow-burning plot with big chacacter development. 
+            TV shows. Give me a longer, slow-burning plot with big character development. 
           </label>
         </div> <!-- end of 'options div'-->
         <div class="radio">
@@ -159,16 +159,25 @@
             Podcasts and books. I find most media more harmful than not so I try to limit my social media content whenever possible.
           </label>
         </div> <!-- end of 'option4 div'-->
+        <button type="submit" class="btn">Submit</button>
       </div> <!--end of 'questions div'-->
-      <button type="submit" class="btn">Submit</button>
     </form> <!--end of 'suggester form'-->
     
 
     <!--hidden result options after submitting below!-->
 
-    <div id="language">
-      <p>You got <span class="output"></span>! We love this for you.</p>
+    <div id="csharp">
+      <p>You got C#! We love this for you.</p>
     </div> <!--end of 'language div'-->
+    <div id= "ruby">
+      <p> You got Ruby! We love this for you.</p>
+    </div>
+    <div id="javascript">
+      <p>You got JavaScript! We love this for you.</p>
+    </div>
+    <div id="python">
+      <p>You got Python! We love this for you.</p>
+    </div>
   </div>  <!--end of 'container div'-->
 </body>
 </html>
