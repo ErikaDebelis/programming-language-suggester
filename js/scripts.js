@@ -21,16 +21,3 @@ $(document).ready(function() {
     }
   });
 });
-
-
-
-
-// each question, their div class, name, and values below//
-
-//q1 name spend ||div class: questions || values: music clothes food gambling  //
-//q2 name color ||div class: questions || values: c-color r-color j-color p-color //
-//q3 name vacation || div class: questions || values: tokyo paris bora home//
-//q4 name animal || div class: questions || value: meerkat leopard rabbit dog //
-//q5 name entertainment || div class: questions || value: tv games youtube podcast //
-
-//5 questions 4 answers each question. //

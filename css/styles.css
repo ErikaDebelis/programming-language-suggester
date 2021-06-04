@@ -1,15 +1,25 @@
 body {
   background-color: rgb(217, 243, 170);
 }
+h1.centered-text {
+  text-align: center;
+  font-weight: bold;
+  color: rgb(90, 77, 57);
+}
+.centered-image {
+  margin: auto;
+  width: fit-content;
+  height: auto;
+  display: block;
+}
 #csharp, #ruby, #javascript, #python {
   display: none;
 }
-
 .form-group {
   font-style: italic;
   font-weight: bold;
+  color:rgb(75, 74, 64)
 }
-
 .radio {
   font-style: italic;
   font-weight: lighter;
