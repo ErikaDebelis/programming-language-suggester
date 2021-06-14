@@ -13,7 +13,7 @@ h1.centered-text {
   height: auto;
   display: block;
 }
-#csharp, #ruby, #javascript, #python {
+#csharp, #ruby, #javascript, #python, #error {
   display: none;
 }
 .form-group {
