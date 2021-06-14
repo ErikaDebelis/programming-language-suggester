@@ -15,6 +15,8 @@ $(document).ready(function() {
       $('#javascript').show();
     } else if ((spend === "python" && color === "python" && vacation === "python" && animal === "python" && entertainment === "python") || (spend === "python" && color === "python" && vacation === "python" && animal === "python" && entertainment === "csharp") || (spend === "python" && color === "python" && vacation === "python" && animal === "ruby" && entertainment === "python") || (spend === "python" && color === "python" && vacation === "javascript" && animal === "python" && entertainment === "python") || (spend === "python" && color === "csharp" && vacation === "python" && animal === "python" && entertainment === "python")) {
       $('#python').show();
+    } else {
+      $('#error').show();
     }
   });
 });
