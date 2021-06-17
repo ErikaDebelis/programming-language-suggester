@@ -6,6 +6,11 @@ $(document).ready(function() {
     const vacation = $("input:radio[name=vacation]:checked").val();
     const animal = $("input:radio[name=animal]:checked").val();
     const entertainment = $("input:radio[name=entertainment]:checked").val();
+
+    $('#csharp').hide();
+    $('#ruby').hide();
+    $('#javascript').hide();
+    $('#error').hide();
     
     if ((spend === "csharp" && color === "csharp" && vacation === "csharp" && animal === "csharp" && entertainment === "csharp") || (spend === "csharp" && color === "csharp" && vacation === "csharp" && animal === "csharp" && entertainment === "ruby") || (spend === "javascript" && color === "csharp" && vacation === "csharp" && animal === "csharp" && entertainment === "csharp") || (spend === "csharp" && color === "csharp" && vacation === "csharp" && animal === "python" && entertainment === "csharp")) {
       $('#csharp').show();
